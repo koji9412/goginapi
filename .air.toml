@@ -1,0 +1,12 @@
+# .air.toml
+[build]
+  # ビルドコマンド
+  cmd = "go build -o main -buildvcs=false ."
+  # ビルドの出力ディレクトリ
+  bin = "main"
+  # ビルド後の実行コマンド
+  full_bin = "./main"
+
+[log]
+  # ログレベル
+  level = "debug"
